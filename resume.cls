@@ -10,7 +10,7 @@
 \usepackage{xltabular}
 \usepackage{graphicx}
 \usepackage{outlines}
-
+\usepackage{fontawesome}
 \setlist[itemize]{leftmargin=*}
 \linespread{1.15}
 \geometry{a4paper,
