@@ -11,6 +11,9 @@
 \usepackage{graphicx}
 \usepackage{outlines}
 \usepackage{fontawesome}
+% \usepackage{courier}
+% \renewcommand*\familydefault{\ttdefault} %% Only if the base font of the document is to be typewriter style
+% \usepackage[T1]{fontenc}
 \setlist[itemize]{leftmargin=*}
 \linespread{1.15}
 \geometry{a4paper,
@@ -19,7 +22,8 @@
     right={0.5in},
     bottom={0.4in}
 }
-\newcommand\clink[1]{{\usefont{T1}{lmtt}{m}{n} #1 }}
+\newcommand\clink[1]{{\usefont{T1}{cmr}{m}{n} #1 }}
+\newcommand\clinksecond[1]{{\usefont{T1}{phv}{m}{n} #1 }}
 \pagenumbering{gobble}
 \newenvironment{csection}[2]{
     \textbf{#1} 
