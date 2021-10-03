@@ -35,7 +35,7 @@
     {
         \textbf{#1} \leavevmode\newline
         {\footnotesize	
-            \ifthenelse{\equal{#2}{}}{}{{#2 \leavevmode\newline}}
+            \ifthenelse{\equal{#2}{}}{}{{\textbf{#2} \leavevmode\newline}}
             \ifthenelse{\equal{#3}{}}{}{{#3 \leavevmode\newline}}
             \ifthenelse{\equal{#4}{}}{}{{\textit{#4}}}
         }
