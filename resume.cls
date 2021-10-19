@@ -22,7 +22,7 @@
     right={0.4in},
     bottom={0.3in}
 }
-\newcommand\clink[1]{{\usefont{T1}{cmtt}{m}{n} #1 }}
+\newcommand\clink[1]{{\usefont{T1}{phv}{m}{n} #1 }}
 \newcommand\clinksecond[1]{{\usefont{T1}{phv}{m}{n} #1 }}
 \pagenumbering{gobble}
 \newenvironment{csection}[2]{
