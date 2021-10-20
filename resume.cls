@@ -16,7 +16,7 @@
 % \renewcommand*\familydefault{\ttdefault} %% Only if the base font of the document is to be typewriter style
 % \usepackage[T1]{fontenc}
 \setlist[itemize]{leftmargin=*}
-\linespread{1.10}
+\linespread{1.05}
 \geometry{a4paper,
     left={0.4in},
     top={0.3in}, 
