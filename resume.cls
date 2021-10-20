@@ -11,6 +11,7 @@
 \usepackage{graphicx}
 \usepackage{outlines}
 \usepackage{fontawesome}
+
 % \usepackage{courier}
 % \renewcommand*\familydefault{\ttdefault} %% Only if the base font of the document is to be typewriter style
 % \usepackage[T1]{fontenc}
@@ -38,6 +39,15 @@
             \ifthenelse{\equal{#2}{}}{}{{\textbf{#2} \leavevmode\newline}}
             \ifthenelse{\equal{#3}{}}{}{{#3 \leavevmode\newline}}
             \ifthenelse{\equal{#4}{}}{}{{\textit{#4}}}
+        }
+    }
+}{}
+\newenvironment{frcontentinside}[3]{
+    {
+        {\footnotesize	
+            \ifthenelse{\equal{#1}{}}{}{{\textbf{#1} \leavevmode\newline}}
+            \ifthenelse{\equal{#2}{}}{}{{#2 \leavevmode\newline}}
+            \ifthenelse{\equal{#3}{}}{}{{\textit{#3}}}
         }
     }
 }{}
